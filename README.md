@@ -2,6 +2,8 @@
 
 A real-time vehicle perception system that analyzes road traffic video input continuously using computer vision.
 
+![view](view.jpg)
+
 ## Features
 
 - **Lane Detection**: Detects road lane lines using edge detection and Hough transforms
