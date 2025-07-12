@@ -13,7 +13,7 @@ class VehicleDetector:
             self.model = YOLO(model_path)
         else:
             # Use pre-trained YOLOv8 model
-            self.model = YOLO('yolo11n.pt')
+            self.model = YOLO('yolov8n.pt')
         
         # Vehicle classes in COCO dataset
         self.vehicle_classes = [2, 3, 5, 7]  # car, motorcycle, bus, truck
